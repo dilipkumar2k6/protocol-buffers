@@ -22,6 +22,8 @@
         - No schema
         - Very big in size due to key repeat
         - No comments
+- Graphql
+    
 - Protocol buffers
     - Defined as `.proto` text file
         ![](assets/proto-buffer.png)
