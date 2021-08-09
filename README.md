@@ -64,3 +64,14 @@ gRPC has  following implementations
     - Node.js
 Because the code can be generated for any languages, it makes super simple to create micro services in any language that interact with each other
 ![](assets/grpc-with-micro-service.png)
+
+# Development
+https://github.com/protocolbuffers/protobuf
+- Download compiler
+- Generate java files for proto as below
+```
+cd test
+protoc --java_out=. person.proto
+javac -cp '.:protobuf-java-3.17.1.jar'  HelloWorld.java
+java -cp '.:protobuf-java-3.17.1.jar'  HelloWorld
+```
